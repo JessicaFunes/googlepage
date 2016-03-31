@@ -1,0 +1,120 @@
+* {
+margin: 0;
+}
+
+body {
+	font-family: arial,sans-serif;
+}
+
+nav {
+	display: inline;
+	float: right;
+	font-size: 13px;
+	margin-top: 17px;
+	margin-right: 10px;
+}
+
+nav p {
+	display: inline;
+	color: grey;
+	margin-bottom: 30px;
+}
+
+nav a {
+	text-decoration: blink;
+	color: black;
+}
+
+
+footer{
+	background-color: #F2F2F2;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer #pie {
+	display: inline;
+	float: left;
+	height: 100%;
+	background-color: #F2F2F2;
+	font-size: 13px;
+    padding-top: 12px;
+    padding-left: 35px;
+    padding-right: 170px;
+	bottom: 0;
+	
+}
+
+footer #piederecho {
+	display: inline;
+	float: right;
+	height:100%;
+	background-color: #F2F2F2;
+	font-size: 13px;
+	padding-top: 12px;
+	border-width: 1px;
+	bottom: 0px;
+
+}
+
+footer a{
+	text-decoration: blink;
+	color: grey;
+	font-size: small;
+}
+
+input {
+	width: 100%;
+	height: 31px;
+	margin: 35px;
+	border-color: #389AFF;
+	border-width: 1px;
+}
+
+button {
+	margin-left: 90px;
+	background-color: #F3F0F0;
+	height: 36px;
+	font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-style: none;
+    padding: 5px 10px;
+}
+
+
+#image {
+	background-image: url("https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif");
+	background-size: 440px 200px;
+    width: 391px;
+    height: 161px;
+	position: relative;
+	margin: 0 auto; 
+}
+#image p {
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	right: 10px;
+	bottom: 3px;
+}
+
+#caja {
+	padding-top: 150px;
+	padding-bottom: 95px;
+	margin: auto;
+	width: 500px;
+	height:200%;
+}
+
+#texto {
+	margin-left: 90px;
+	margin-top: 25px;
+    font-size: small;
+}
+
+
